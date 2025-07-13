@@ -17,7 +17,7 @@ export function Form() {
         `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${apiOrCur}.json`
       )
     ).data[apiOrCur];
-    if (originalValue) {
+    if (originalValue != undefined) {
       setConvertValue(res[convertOrCur] * originalValue);
     }
   }

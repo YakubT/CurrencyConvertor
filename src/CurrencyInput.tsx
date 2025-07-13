@@ -22,7 +22,7 @@ export function CurrencyInput({
   const [amount, setAmount] = useState<number>();
 
   useEffect(() => {
-    if (convertValue) {
+    if (convertValue !== undefined) {
       if (value === "convert" && convertValue !== undefined) {
         setAmount(convertValue);
       }
@@ -64,7 +64,7 @@ export function CurrencyInput({
           className="w-3/5 pl-2 mt-5 rounded-l-md border-slate-300 border-2
           border-r-0 text-left"
         >
-          {amount ? amount : ""}
+          {amount}
         </div>
       )}
       <select
