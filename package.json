@@ -2,7 +2,7 @@
   "name": "currency-converter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/YakubT/CurrencyConvertor",
+  "homepage": "https://yakubt.github.io/CurrencyConvertor/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
